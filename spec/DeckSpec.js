@@ -4,5 +4,10 @@ describe('Deck', function(){
       deck = new Deck();
       expect(deck).toBeDefined();
     })
+    
+    it('checks that class instantiates with an empty object', function(){
+      deck = new Deck();
+      expect(deck.cards).toEqual([]);
+    })
   })
 })

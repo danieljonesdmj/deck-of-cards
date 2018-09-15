@@ -1,3 +1,3 @@
 function Deck(){
-  
+  this.cards = [];
 }
