@@ -35,5 +35,10 @@ describe('Deck', function(){
       deck.buildDeck();
       expect(deck.cards).toContain({suit: "hearts", rank: "king"});
     })
+    
+    it('built deck should not have invalid cards', function(){
+      deck.buildDeck();
+      expect(deck.cards).not.toContain({suit: "bells", rank: "eleven"});      
+    })
   })
 })
