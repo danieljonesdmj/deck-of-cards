@@ -10,4 +10,10 @@ describe('Deck', function(){
       expect(deck.cards).toEqual([]);
     })
   })
+  describe('card rank array', function(){
+    it('holds all card ranks', function(){
+      deck = new Deck();
+      expect(deck.cardRanks).toContain("three");
+    })
+  })
 })
