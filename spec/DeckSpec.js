@@ -17,4 +17,9 @@ describe('Deck', function(){
       expect(deck.cardRanks).toContain("three");
     })
   })
+  describe('card suit array', function(){
+    it('holds all card suits', function(){
+      expect(deck.cardSuits).toContain("clubs");
+    })
+  })
 })
