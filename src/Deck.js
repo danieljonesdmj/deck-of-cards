@@ -10,5 +10,4 @@ Deck.prototype.buildDeck = function() {
       this.cards.push({suit, rank});
     }, this)
   }, this)
-  console.log(this.cards);
 }
