@@ -1,3 +1,3 @@
 function Shuffle(){
-    
+    this.shuffledCards = [];
 }
