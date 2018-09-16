@@ -30,5 +30,10 @@ describe('Deck', function(){
       deck.buildDeck();   
       expect(deck.cards.length).toEqual(52);
     })
+
+    it('built deck includes cards', function(){
+      deck.buildDeck();
+      expect(deck.cards).toContain({suit: "hearts", rank: "king"});
+    })
   })
 })
