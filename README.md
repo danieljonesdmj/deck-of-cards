@@ -54,7 +54,7 @@ dealer = new Dealer()
 
 Deal full game
 
-dealer.dealFullGame()
+dealer.dealFullGame(shuffledCards)
 `
 
 ### Further improvments
