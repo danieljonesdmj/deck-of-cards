@@ -12,3 +12,7 @@ Deck.prototype.buildDeck = function () {
     }, this)
   }, this)
 }
+
+Deck.prototype.deck = function () {
+  
+}

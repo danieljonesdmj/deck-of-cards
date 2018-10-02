@@ -1,5 +1,5 @@
 function Shuffle() {
-    this.shuffledCards = [];
+    this.shuffledCards;
 }
 
 Shuffle.prototype.shuffleDeck = function (orderedCards) {
@@ -17,5 +17,5 @@ Shuffle.prototype.shuffleDeck = function (orderedCards) {
         orderedCards[randomIndex] = temporaryValue;
     }
 
-    this.shuffledCards.push(orderedCards);
+    this.shuffledCards = orderedCards;
 }
